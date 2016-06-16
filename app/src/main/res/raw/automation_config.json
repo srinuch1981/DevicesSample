@@ -1,0 +1,1042 @@
+{
+  "groups": {
+    "hdroom-30082": {
+      "name": "Office",
+      "auto": true,
+      "groupType": "covering",
+      "sceneIds": [
+        "hdScene-23811",
+        "hdScene-27752",
+        "hdScene-22188"
+      ],
+      "all": false,
+      "deviceIds": [
+
+      ]
+    },
+    "hdroom-22235": {
+      "name": "Living Room",
+      "auto": true,
+      "groupType": "covering",
+      "sceneIds": [
+        "hdScene-53848",
+        "hdScene-49840",
+        "hdScene-28514",
+        "hdScene-20666"
+      ],
+      "all": false,
+      "deviceIds": [
+
+      ]
+    },
+
+    "all-extScenes-group": {
+      "sceneIds": [
+
+      ],
+      "deviceIds": [
+        "insteonS248435",
+        "insteonS253001",
+        "hdScene-53848",
+        "hdScene-49840",
+        "hdScene-28514",
+        "hdScene-23811",
+        "hdScene-27752",
+        "hdScene-22188",
+        "hdScene-20666",
+        "hueScene-5433543407763456",
+        "hueScene-5996493361184768",
+        "hueScene-5177414643679232",
+        "hueScene-6463120619929600",
+        "hueScene-6048198593413120",
+        "hueScene-5741840992108544",
+        "hueScene-6736277050294272",
+        "hueScene-6261757789143040",
+        "hueScene-5363947757699072",
+        "hueScene-5482837284290560",
+        "hueScene-4712990703157248",
+        "hueScene-5681824192856064",
+        "hueScene-5233548792496128",
+        "hueScene-5071909040488448",
+        "hueScene-6288399202844672",
+        "hueScene-4958876238675968",
+        "hueScene-5563528177057792",
+        "hueScene-5796498745917440",
+        "hueScene-5858678329638912",
+        "hueScene-6297606270550016",
+        "hueScene-5725449249423360",
+        "hueScene-5348074900750336"
+      ],
+      "groupType": "extScene",
+      "type": "extScene",
+      "all": true,
+      "auto": true,
+      "name": "SCENES"
+    },
+    "all-locks-group": {
+      "sceneIds": [
+
+      ],
+      "deviceIds": [
+        "3bf7013a-898e-4e7f-bf84-674966f71458"
+      ],
+      "groupType": "lock",
+      "type": "lock",
+      "all": true,
+      "name": "LOCKS",
+      "auto": true
+    },
+    "all-lamps-group": {
+      "sceneIds": [
+
+      ],
+      "deviceIds": [
+        "insteon573461",
+        "insteon607461",
+        "6d0c4e15-c3a7-42de-9e08-c2c61a1aef42",
+        "a838cb49-a534-4ad5-9f43-2d6cb9b15f0f",
+        "dc9e3d06-b9f3-4b23-a588-91a11a1ff7b9"
+      ],
+      "groupType": "lamp",
+      "type": "lamp",
+      "all": true,
+      "auto": true,
+      "name": "LIGHTS"
+    },
+    "all-thermostats-group": {
+      "all": true,
+      "deviceIds": [
+        "nest8U-ILEqUodpLgcVRg1SB1C9hHDBBXbpb",
+        "nest8U-ILEqUodphBfzF7cOCjS9hHDBBXbpb",
+        "nest8U-ILEqUodqzP_wKGKW_1i9hHDBBXbpb",
+        "nest8U-ILEqUodrMuWehIjncEC9hHDBBXbpb",
+        "631945df-1235-44ad-ba8e-470bb313f621",
+        "3bec4f4d-cbd2-4ef5-9f90-3b00d28fad55",
+        "51a7f154-0492-4fd1-a906-f18a28867ddc"
+      ],
+      "groupType": "thermostat",
+      "type": "thermostat",
+      "sceneIds": [
+
+      ],
+      "auto": true,
+      "name": "THERMOSTATS"
+    },
+    "all-sensors-group": {
+      "all": true,
+      "deviceIds": [
+        "nest-home-away-nsensor",
+        "4ea9be19-e257-4186-8a45-e2f2b07e4eb6",
+        "5fab9809-184d-4c05-af81-d270ecd7a494"
+      ],
+      "groupType": "sensor",
+      "type": "sensor",
+      "sceneIds": [
+
+      ],
+      "auto": true,
+      "name": "SENSORS"
+    },
+    "all-plugs-group": {
+      "sceneIds": [
+
+      ],
+      "deviceIds": [
+        "insteon573462"
+      ],
+      "groupType": "plug",
+      "type": "plug",
+      "all": true,
+      "auto": true,
+      "name": "PLUGS"
+    },
+    "all-waterheaters-group": {
+      "sceneIds": [
+
+      ],
+      "deviceIds": [
+        "rheem11330"
+      ],
+      "groupType": "waterheater",
+      "type": "waterheater",
+      "all": true,
+      "name": "WATER HEATERS",
+      "auto": true
+    }
+  },
+  "scenes": [
+
+  ],
+  "id": "7f4d0b812b2e577337a45d68",
+  "account_uri": "svcs-stg01.myharmony.com\/res\/account\/503-smSkGF7H8sD8NMPSWqzos0ocCsEeKHBpE\/PhVcYokiI=",
+  "scenes2": {
+    "insteonS248435": {
+      "type": "external",
+      "name": "Scene 1",
+      "sceneDeviceType": "lamp"
+    },
+    "insteonS253001": {
+      "type": "external",
+      "name": "Scene 2",
+      "sceneDeviceType": "lamp"
+    },
+    "hdScene-22188": {
+      "image": "hunterdouglas_1",
+      "type": "external",
+      "name": "Meeting",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-49840": {
+      "image": "hunterdouglas_13",
+      "type": "external",
+      "name": "Night",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-20666": {
+      "image": "hunterdouglas_10",
+      "type": "external",
+      "name": "Shower",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-23811": {
+      "image": "hunterdouglas_7",
+      "type": "external",
+      "name": "Morning",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-28514": {
+      "image": "hunterdouglas_12",
+      "type": "external",
+      "name": "Movie",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-53848": {
+      "image": "hunterdouglas_9",
+      "type": "external",
+      "name": "My Scene ",
+      "sceneDeviceType": "covering"
+    },
+    "hdScene-27752": {
+      "image": "hunterdouglas_12",
+      "type": "external",
+      "name": "Night",
+      "sceneDeviceType": "covering"
+    },
+    "hueScene-4958876238675968": {
+      "name": "Beach",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/RkmqK2Gp8zaABVVlSqLePAvJgXrDqIZEEUQZEQfKrC9wgnUqDmss_w6lMIjj6R6Wh67I3Ka-oyoWIxkpjFLtpxzl"
+    },
+    "hueScene-5233548792496128": {
+      "name": "Blue rain",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/gCN56hkPzohMPLFVZLJtODERzUHj_nCXPNmwTeQMA5xipvooMDXjaBnvLpDj9Mn8Tx6ldYLX9pubbB756OtIWYY"
+    },
+    "hueScene-4712990703157248": {
+      "name": "Jump!",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/GHah4uahlu3_gdhA10jQUM4abHjSp70naqn0KBzwH4wkca7NnyNVSFqahkMkzWADBBPVAnFFp-KmiIV0R5-zgKOL"
+    },
+    "hueScene-6288399202844672": {
+      "name": "Ski",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/qZPkL9jazm-J00GBL-Ox_vP-wnGZLtrBhsLMWeG4gyv8h4xLPklIFRLvrGOR2EXGv3YiVkXF8wuqG9kwaqPXhm4"
+    },
+    "hueScene-6736277050294272": {
+      "name": "Reading",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_reading"
+    },
+    "hueScene-5681824192856064": {
+      "name": "Taj",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/_UXP914WwsQ5hBDzORZuALuAW3cqgoXJUO2KzfhW_XcgJncx-lBoyok8z6By9Jc5EU_RpoH5KSpzsmgt9kqkCS782Q"
+    },
+    "hueScene-5071909040488448": {
+      "name": "Feet up",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/CHlnaf5Bdkul51KElP5zLgRuK7UzNJ91ebvECvtn7tSM696PbVd5pp02OFls392EG1JViv62dCMSf4XRTdfl6ru7MA"
+    },
+    "hueScene-6297606270550016": {
+      "name": "Deep sea",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/bEunIE2A7g-UsWHoJIUqGLRGCsJqEXWYYTUhP8R7TaILdVw-MxM9gEDOl1U_oZ7Fr_RjPA_pWtLQArA-OPMnt6Ud"
+    },
+    "hueScene-5996493361184768": {
+      "name": "Relax",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_relax"
+    },
+    "hueScene-5858678329638912": {
+      "name": "Kathy",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/TWJfik_o1zEl5DtdpB0upNOMK0F7V7_9V9m6qtiMKd6cpru618c9eIdPmlQHVgzUjJl_HX01bOKZnlhs2u_6UFA"
+    },
+    "hueScene-6261757789143040": {
+      "name": "Greece",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/pnVepFAO6OlnS74BdoO0y01QWujArMoiUtXCKS3chUXIKN2I8zuUMWAJcL1FnkfhvYB5nIFBpizERY3s3FM_rbBEWA"
+    },
+    "hueScene-5348074900750336": {
+      "name": "Sunset",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/quROHH3sFkwR2aMASIPl5BSR8eFc0ZRg0M6AYHRUjnFnGaKdTeIpIi9Z11lvhzYukMijMczwIiOjwaYh_MVYhNE"
+    },
+    "hueScene-5177414643679232": {
+      "name": "Kathy",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/V5NQC_ATSGanUPlOzvxd2lIZm80E_3mEBjdvuHWPkBKkHnqXtRW2oMJa1T1Gr-mguiFa7ot5IDgatq7X4eIGoDXn"
+    },
+    "hueScene-5363947757699072": {
+      "name": "Laila",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/8OGFlTnk-mFTSaD8y_CKLcz93RjbIADX2WYnnZttZRDUA3M3SOAz_OgcAeZcr3mqPi1k7px62JmPTGFC79QlegY"
+    },
+    "hueScene-5741840992108544": {
+      "name": "Energize",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_energize"
+    },
+    "hueScene-5482837284290560": {
+      "name": "Hammock",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/EdqpdTpeFGdke1hGIiIzD5P5BNsfyPSY62C1U_QXxwCBJ0Bf9EzP8WJ8WZVuQut8SwikDaPad300YyD6eCueuPpc"
+    },
+    "hueScene-5563528177057792": {
+      "name": "Concentrate",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_concentrate"
+    },
+    "hueScene-6463120619929600": {
+      "name": "Deep sea",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/mgp8gYiZqRl_-Pybh6vctGQSgRKkNs_CvMv8j8qm0w89WJ4tLJ5Y-HBAEYHgqnyU8gn_S6lWJKaHkB4ObJ8wllDoMA"
+    },
+    "hueScene-5725449249423360": {
+      "name": "Pencils",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/4ETlbCaVuvz-t7F3ZR0ebj_FnP3-FXy_kIgzBuipfMb7_rJJU4IK6xfB3AyAGM9rJaDCRLBspDMx0J71mbPN-rDY"
+    },
+    "hueScene-5433543407763456": {
+      "name": "Concentrate",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_concentrate"
+    },
+    "hueScene-6048198593413120": {
+      "name": "New user",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "http:\/\/lh3.googleusercontent.com\/_MPQXl9Xv1st2w750pkgUdEwT3t2Wrdes42uzrGjnouLRcz1_tIC7hapO1H1krE7toRTbBx54ix_xCROW5BKsRMzSg"
+    },
+    "hueScene-5796498745917440": {
+      "name": "Relax",
+      "type": "external",
+      "sceneDeviceType": "lamp",
+      "image": "hue_relax"
+    }
+  },
+  "gateways": {
+    "smartthings\/qZbrOW1l_cxfkNjJC40giw": {
+      "status": "ok",
+      "secret": "d65dc123-d1f1-48bd-97bc-176159618ae7",
+      "manufacturer": "SmartThings",
+      "model": "SmartThings",
+      "udn": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "urlBase": "https:\/\/graph.api.smartthings.com",
+      "type": "smartthings",
+      "name": "SmartThings"
+    },
+    "rheem-4649": {
+      "secret": [
+
+      ],
+      "status": "ok",
+      "manufacturer": "Rheem",
+      "udn": "rheem-4649",
+      "urlBase": "https:\/\/io.myrheem.com\/",
+      "model": "Rheem Water Heater",
+      "type": "rheem",
+      "name": "Rheem",
+      "locationId": "4649"
+    },
+    "insteon-71039": {
+      "secret": [
+
+      ],
+      "status": "ok",
+      "manufacturer": "Insteon",
+      "udn": "insteon-71039",
+      "urlBase": "https:\/\/connect.insteon.com\/api\/v2\/",
+      "model": "Insteon Hub",
+      "type": "insteon",
+      "name": "Insteon",
+      "locationId": "71039"
+    },
+    "+nest\/CJA4GCLkrS_BF5vj7PwEcg": {
+      "urlBase": "https:\/\/developer-api.nest.com\/",
+      "status": "ok",
+      "udn": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "type": "nest",
+      "name": "Nest",
+      "structureId": "7ItlxXUTNudAx-_5BMqKMG6jEyBHQgqD0vpvnj6Sa4s3eXEphFS4TQ"
+    }
+  },
+  "maps": {
+
+  },
+  "unknownDevices": {
+
+  },
+  "devices": {
+
+    "hdScene-22188": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-22188",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_1",
+      "name": "Meeting",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-53848": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-53848",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_9",
+      "name": "My Scene ",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-20666": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-20666",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_10",
+      "name": "Shower",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-23811": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-23811",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_7",
+      "name": "Morning",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-28514": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-28514",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_12",
+      "name": "Movie",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-27752": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-27752",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_12",
+      "name": "Night",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "hdScene-49840": {
+      "type": "extScene",
+      "gatewayDeviceId": "hdScene-49840",
+      "gatewayId": "HunterDouglasF8D619AA8407746E",
+      "image": "hunterdouglas_13",
+      "name": "Night",
+      "model": "PowerView Hub",
+      "manufacturer": "Hunter Douglas",
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1443702372
+    },
+    "nest-home-away-nsensor": {
+      "capabilities": {
+        "class": "homeAway",
+        "valuelist": [
+          "Home",
+          "Away",
+          "Auto-Away"
+        ],
+        "battery": false
+      },
+      "gatewayId": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "gatewayDeviceId": "nest-home-away-nsensor",
+      "manufacturer": "Nest",
+      "model": "Home\/Away",
+      "ts": 1447511125,
+      "type": "nsensor",
+      "name": "Nest Home \/ Away Sensor"
+    },
+    "6d0c4e15-c3a7-42de-9e08-c2c61a1aef42": {
+      "gatewayDeviceId": "6d0c4e15-c3a7-42de-9e08-c2c61a1aef42",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511254,
+      "model": "Dimmer Switch",
+      "capabilities": {
+        "class": "switch",
+        "dimLevel": true
+      },
+      "type": "lamp",
+      "name": "Dimmer Switch"
+    },
+    "insteonS253001": {
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "gatewayId": "insteon-71039",
+      "gatewayDeviceId": "insteonS253001",
+      "manufacturer": "Insteon",
+      "model": "",
+      "ts": 1447511029,
+      "type": "extScene",
+      "name": "Scene 2"
+    },
+    "insteonS248435": {
+      "capabilities": {
+        "battery": false,
+        "edit": 0
+      },
+      "gatewayId": "insteon-71039",
+      "gatewayDeviceId": "insteonS248435",
+      "manufacturer": "Insteon",
+      "model": "",
+      "ts": 1447511029,
+      "type": "extScene",
+      "name": "Scene 1"
+    },
+    "nest8U-ILEqUodphBfzF7cOCjS9hHDBBXbpb": {
+      "capabilities": {
+        "fanOff": false,
+        "hold": false,
+        "fan": false,
+        "cool": true,
+        "presence": true,
+        "heat": true,
+        "fanDutyCycle": false,
+        "battery": false,
+        "auxHeat": false,
+        "changeUnit": false,
+        "auto": true
+      },
+      "gatewayId": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "gatewayDeviceId": "nest8U-ILEqUodphBfzF7cOCjS9hHDBBXbpb",
+      "manufacturer": "Nest",
+      "model": "Thermostat",
+      "ts": 1447511125,
+      "type": "thermostat",
+      "name": "Bedroom (Good night)"
+    },
+    "nest8U-ILEqUodpLgcVRg1SB1C9hHDBBXbpb": {
+      "capabilities": {
+        "fanOff": false,
+        "hold": false,
+        "fan": false,
+        "cool": true,
+        "presence": true,
+        "heat": true,
+        "fanDutyCycle": false,
+        "battery": false,
+        "auxHeat": false,
+        "changeUnit": false,
+        "auto": true
+      },
+      "gatewayId": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "gatewayDeviceId": "nest8U-ILEqUodpLgcVRg1SB1C9hHDBBXbpb",
+      "manufacturer": "Nest",
+      "model": "Thermostat",
+      "ts": 1447511125,
+      "type": "thermostat",
+      "name": "Hallway"
+    },
+    "3bf7013a-898e-4e7f-bf84-674966f71458": {
+      "gatewayDeviceId": "3bf7013a-898e-4e7f-bf84-674966f71458",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511263,
+      "model": "Z-Wave Lock",
+      "capabilities": {
+        "battery": true
+      },
+      "type": "lock",
+      "name": "Z-Wave Lock"
+    },
+    "51a7f154-0492-4fd1-a906-f18a28867ddc": {
+      "gatewayDeviceId": "51a7f154-0492-4fd1-a906-f18a28867ddc",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511293,
+      "model": "CT100 Thermostat",
+      "capabilities": {
+        "fanOff": false,
+        "fan": true,
+        "edit": 0,
+        "cool": true,
+        "heat": true,
+        "battery": true,
+        "auto": true
+      },
+      "type": "thermostat",
+      "name": "CT100 Thermostat"
+    },
+    "insteon607461": {
+      "capabilities": {
+        "xy": false,
+        "hueSat": false,
+        "edit": 0,
+        "dimUpDown": false,
+        "temp": false,
+        "class": "",
+        "battery": false,
+        "dimLevel": true
+      },
+      "gatewayId": "insteon-71039",
+      "gatewayDeviceId": "insteon607461",
+      "manufacturer": "Insteon",
+      "model": "",
+      "ts": 1447511027,
+      "type": "lamp",
+      "name": "Plug In Module 1"
+    },
+    "3bec4f4d-cbd2-4ef5-9f90-3b00d28fad55": {
+      "gatewayDeviceId": "3bec4f4d-cbd2-4ef5-9f90-3b00d28fad55",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511278,
+      "model": "CT100 Thermostat",
+      "capabilities": {
+        "fanOff": false,
+        "fan": true,
+        "edit": 0,
+        "cool": true,
+        "heat": true,
+        "battery": true,
+        "auto": true
+      },
+      "type": "thermostat",
+      "name": "CT100 Thermostat"
+    },
+    "insteon573462": {
+      "capabilities": {
+        "xy": false,
+        "hueSat": false,
+        "edit": 0,
+        "dimUpDown": false,
+        "temp": false,
+        "class": "",
+        "battery": false,
+        "dimLevel": false
+      },
+      "gatewayId": "insteon-71039",
+      "gatewayDeviceId": "insteon573462",
+      "manufacturer": "Insteon",
+      "model": "",
+      "ts": 1447511026,
+      "type": "lamp",
+      "name": "On \/ Off"
+    },
+    "5fab9809-184d-4c05-af81-d270ecd7a494": {
+      "gatewayDeviceId": "5fab9809-184d-4c05-af81-d270ecd7a494",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511300,
+      "model": "SmartSense Multi",
+      "capabilities": {
+        "battery": true,
+        "class": "openclose"
+      },
+      "type": "bsensor",
+      "name": "SmartSense Multi"
+    },
+    "dc9e3d06-b9f3-4b23-a588-91a11a1ff7b9": {
+      "gatewayDeviceId": "dc9e3d06-b9f3-4b23-a588-91a11a1ff7b9",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511305,
+      "model": "Dimmer Switch",
+      "capabilities": {
+        "class": "switch",
+        "dimLevel": true
+      },
+      "type": "lamp",
+      "name": "Dimmer Switch"
+    },
+    "rheem11330": {
+      "capabilities": {
+        "class": "electric",
+        "battery": false,
+        "edit": 0
+      },
+      "ts": 1447511417,
+      "gatewayId": "rheem-4649",
+      "type": "waterheater",
+      "name": "Bala Rheem",
+      "gatewayDeviceId": "rheem11330"
+    },
+    "a838cb49-a534-4ad5-9f43-2d6cb9b15f0f": {
+      "gatewayDeviceId": "a838cb49-a534-4ad5-9f43-2d6cb9b15f0f",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511293,
+      "model": "Dimmer Switch",
+      "capabilities": {
+        "class": "switch",
+        "dimLevel": true
+      },
+      "type": "lamp",
+      "name": "Dimmer Switch"
+    },
+    "631945df-1235-44ad-ba8e-470bb313f621": {
+      "gatewayDeviceId": "631945df-1235-44ad-ba8e-470bb313f621",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511266,
+      "model": "CentraLite Thermostat",
+      "capabilities": {
+        "fanOff": false,
+        "fan": true,
+        "edit": 0,
+        "cool": true,
+        "heat": true,
+        "auto": true
+      },
+      "type": "thermostat",
+      "name": "CentraLite Thermostat"
+    },
+    "insteon573461": {
+      "capabilities": {
+        "xy": false,
+        "hueSat": false,
+        "edit": 0,
+        "dimUpDown": false,
+        "temp": false,
+        "class": "",
+        "battery": false,
+        "dimLevel": true
+      },
+      "gatewayId": "insteon-71039",
+      "gatewayDeviceId": "insteon573461",
+      "manufacturer": "Insteon",
+      "model": "",
+      "ts": 1447511027,
+      "type": "lamp",
+      "name": "Plug In Module"
+    },
+    "4ea9be19-e257-4186-8a45-e2f2b07e4eb6": {
+      "gatewayDeviceId": "4ea9be19-e257-4186-8a45-e2f2b07e4eb6",
+      "gatewayId": "smartthings\/qZbrOW1l_cxfkNjJC40giw",
+      "manufacturer": "SmartThings",
+      "ts": 1447511259,
+      "model": "SmartSense Multi",
+      "capabilities": {
+        "battery": true,
+        "class": "openclose"
+      },
+      "type": "bsensor",
+      "name": "SmartSense Multi"
+    },
+    "nest8U-ILEqUodrMuWehIjncEC9hHDBBXbpb": {
+      "capabilities": {
+        "fanOff": false,
+        "hold": false,
+        "fan": false,
+        "cool": true,
+        "presence": true,
+        "heat": true,
+        "fanDutyCycle": false,
+        "battery": false,
+        "auxHeat": false,
+        "changeUnit": false,
+        "auto": true
+      },
+      "gatewayId": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "gatewayDeviceId": "nest8U-ILEqUodrMuWehIjncEC9hHDBBXbpb",
+      "manufacturer": "Nest",
+      "model": "Thermostat",
+      "ts": 1447511125,
+      "type": "thermostat",
+      "name": "Entryway"
+    },
+    "nest8U-ILEqUodqzP_wKGKW_1i9hHDBBXbpb": {
+      "capabilities": {
+        "fanOff": false,
+        "hold": false,
+        "fan": false,
+        "cool": true,
+        "presence": true,
+        "heat": true,
+        "fanDutyCycle": false,
+        "battery": false,
+        "auxHeat": false,
+        "changeUnit": false,
+        "auto": true
+      },
+      "gatewayId": "+nest\/CJA4GCLkrS_BF5vj7PwEcg",
+      "gatewayDeviceId": "nest8U-ILEqUodqzP_wKGKW_1i9hHDBBXbpb",
+      "manufacturer": "Nest",
+      "model": "Thermostat",
+      "ts": 1447511125,
+      "type": "thermostat",
+      "name": "Downstairs (harmony)"
+    }
+  },
+  "programs": {
+    "hdScene-22188": {
+      "activityId": "hdScene-22188",
+      "start-end-1": {
+        "start": {
+          "hdScene-22188": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-22188": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-22188"
+      ]
+    },
+    "hdScene-49840": {
+      "activityId": "hdScene-49840",
+      "start-end-1": {
+        "start": {
+          "hdScene-49840": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-49840": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-49840"
+      ]
+    },
+    "hdScene-20666": {
+      "activityId": "hdScene-20666",
+      "start-end-1": {
+        "start": {
+          "hdScene-20666": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-20666": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-20666"
+      ]
+    },
+    "hdScene-23811": {
+      "activityId": "hdScene-23811",
+      "start-end-1": {
+        "start": {
+          "hdScene-23811": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-23811": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-23811"
+      ]
+    },
+    "hdScene-28514": {
+      "activityId": "hdScene-28514",
+      "start-end-1": {
+        "start": {
+          "hdScene-28514": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-28514": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-28514"
+      ]
+    },
+    "hdScene-53848": {
+      "activityId": "hdScene-53848",
+      "start-end-1": {
+        "start": {
+          "hdScene-53848": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-53848": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-53848"
+      ]
+    },
+    "hdScene-27752": {
+      "activityId": "hdScene-27752",
+      "start-end-1": {
+        "start": {
+          "hdScene-27752": {
+            "on": true
+          }
+        },
+        "end": {
+          "hdScene-27752": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false,
+      "devices": [
+        "hdScene-27752"
+      ]
+    },
+    "insteonS248435": {
+      "devices": [
+        "insteonS248435"
+      ],
+      "activityId": "insteonS248435",
+      "start-end-1": {
+        "start": {
+          "insteonS248435": {
+            "on": true
+          }
+        },
+        "end": {
+          "insteonS248435": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false
+    },
+    "insteonS253001": {
+      "devices": [
+        "insteonS253001"
+      ],
+      "activityId": "insteonS253001",
+      "start-end-1": {
+        "start": {
+          "insteonS253001": {
+            "on": true
+          }
+        },
+        "end": {
+          "insteonS253001": {
+            "on": false
+          }
+        },
+        "triggers": [
+
+        ]
+      },
+      "disabled": false
+    }
+  }
+}

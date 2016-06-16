@@ -1,0 +1,427 @@
+[
+  {
+    "DeviceTypeDisplayName": "Television",
+    "DeviceCapabilitiesWithPriority": [
+      {
+        "DeviceCapability": 1,
+        "Priority": 100
+      },
+      {
+        "DeviceCapability": 2,
+        "Priority": 10
+      },
+      {
+        "DeviceCapability": 3,
+        "Priority": 70
+      },
+      {
+        "DeviceCapability": 5,
+        "Priority": 290
+      },
+      {
+        "DeviceCapability": 8,
+        "Priority": 10
+      }
+    ],
+    "BTAddress": null,
+    "Model": "LN-52A580",
+    "DongleRFID": 0,
+    "CopiedDeviceSource": -1,
+    "ParentDeviceModel": "LN-52A580",
+    "Characterization": -1,
+    "EncodedEdid": null,
+    "DeviceType": 1,
+    "SuggestedDisplay": "DEFAULT",
+    "CategoryType": "TV",
+    "DefaultInterDeviceDelay": 1000,
+    "Id-": 3212,
+    "DeviceClassification": 0,
+    "IsInterKeyDelayOptimized": false,
+    "ControlPort": 7,
+    "DeviceSearchType": 2,
+    "RegionalCharset": null,
+    "InterKeyDelay": 500,
+    "DefaultInterKeyDelay": 500,
+    "Features": {
+      "ChannelTuningFeature": {
+        "__type": "ChannelTuningFeature",
+        "isModified": false,
+        "GlobalDeviceVersionId-": 241685,
+        "FixedDigits": null,
+        "State": 1,
+        "FinishActions": [],
+        "DateModified": null,
+        "GreaterTenActions": null,
+        "StartActions": null,
+        "GreaterHundredActions": null,
+        "DeviceId-": 3212
+      },
+      "PowerFeature": {
+        "ConnectedAppPowerOnDelay": 0,
+        "PowerOnDelay": 8500,
+        "isModified": false,
+        "PowerToggleActionId": 0,
+        "PowerToggleActions": null,
+        "HasAdditionalActions": false,
+        "PowerOnResetInputName": null,
+        "IsPowerAlwaysOn": false,
+        "PowerOnActions": [
+          {
+            "Order": 1,
+            "__type": "IRPressAction",
+            "IRCommandName": "PowerOn",
+            "Duration": null,
+            "ActionId": 0
+          }
+        ],
+        "PowerOnActionId": 0,
+        "DefaultPowerOnDelay": 8500,
+        "__type": "PowerFeature",
+        "GlobalDeviceVersionId-": 241685,
+        "PowerOffActions": [
+          {
+            "Order": 1,
+            "__type": "IRPressAction",
+            "IRCommandName": "PowerOff",
+            "Duration": null,
+            "ActionId": 0
+          }
+        ],
+        "State": 1,
+        "DateModified": null,
+        "IsPoweredOnBetweenActivities": false,
+        "PowerTypeId": 1,
+        "PowerOffActionId": 0,
+        "Id": 0,
+        "PowerOnResetActions": null,
+        "DeviceId-": 3212
+      },
+      "InputFeature": {
+        "isModified": false,
+        "InputType": 1,
+        "InputDelay": 1000,
+        "HasAdditionalActions": false,
+        "CanSkipInputs": 0,
+        "IsActiveInput": null,
+        "Inputs": [
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "Antenna",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 2,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputAntenna",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "AV 1",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 3,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputAv1",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "AV 2",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 4,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputAv2",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "S-Video 1",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 5,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputSVideo1",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "S-Video 2",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 6,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputSVideo2",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "Component 1",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 7,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputComponent1",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "Component 2",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 8,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputComponent2",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "PC",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 9,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputPc",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "HDMI 1",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 10,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputHdmi1",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "HDMI 2",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 11,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputHdmi2",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          },
+          {
+            "ActionName": null,
+            "HasAdditionalActions": false,
+            "IsActiveInput": true,
+            "PressDuration": 0,
+            "InputName": "HDMI 3",
+            "IsOnline": false,
+            "StateName": null,
+            "ActionSetTypeId": 1,
+            "ActionId": 0,
+            "StateValue": null,
+            "InputOrder": 12,
+            "IsAutoSwitch": null,
+            "DevActionType": 0,
+            "Actions": [
+              {
+                "Order": 1,
+                "__type": "IRPressAction",
+                "IRCommandName": "InputHdmi3",
+                "Duration": null,
+                "ActionId": 0
+              }
+            ],
+            "Id": 0
+          }
+        ],
+        "__type": "InputFeature",
+        "DefaultInputDelay": 1000,
+        "GlobalDeviceVersionId-": 241685,
+        "State": 1,
+        "FinishActions": null,
+        "DateModified": null,
+        "NextActions": null,
+        "StartActions": null,
+        "Id": 0,
+        "PreviousActions": null,
+        "DeviceId-": 3212
+      }
+    },
+    "GlobalDeviceVersionId-": 241685,
+    "ParentDeviceManufacturer": "Samsung",
+    "Transport": 1,
+    "HoldInterKeyDelay": 100,
+    "HoldInterDeviceDelay": 0,
+    "GlobalLanguageVersionId-": 40839,
+    "SetupState": 1,
+    "Manufacturer": "Samsung",
+    "ActivityIds": null,
+    "AutoDetectedDevice": null,
+    "PrivateAddType": 0,
+    "IsKeyboardAssociated": false,
+    "isModified": false,
+    "IsScartCableSupported": false,
+    "IsMultiCode": false,
+    "PressMinRepeats": 3,
+    "ContentProfileKey": 3212,
+    "DongleIndex": 0,
+    "DeviceAddedDate": "/Date(1465636282363+0000)/",
+    "InterDeviceDelay": 1000,
+    "HoldMinRepeats": 0,
+    "Name": "Samsung TV (2)",
+    "State": 1,
+    "DeviceOrder": 0,
+    "DecodedEdid": null,
+    "PictureId": null,
+    "ParentDevice-": 169867,
+    "DefaultPressMinRepeats": 3,
+    "Icon": 1,
+    "DeviceProfileUri": "svcs-dev02.myharmony.com/res/device/3212-KP/39+oNe76t0LJlbAOGt9lNyVwUllwSK/+Lkv2+NrY="
+  }
+]
